@@ -32,7 +32,9 @@ export default {
                 field: 'type',
                 title: '按钮类型',
                 props: {activeValue: 'button', inactiveValue: 'default'}
-            }, {type: 'switch', field: 'disabled', title: '是否禁用'}, {
+            }, {type: 'switch', field: 'disabled', title: '是否禁用'}, 
+            {type: 'switch', field: 'show', title: '是否显示'},
+            {
                 type: 'inputNumber',
                 field: 'min',
                 title: '可被勾选的 checkbox 的最小数量'

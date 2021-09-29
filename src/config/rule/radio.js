@@ -27,7 +27,9 @@ export default {
     props() {
         return [
             makeOptionsRule('options'),
-            {type: 'switch', field: 'disabled', title: '是否禁用'}, {
+            {type: 'switch', field: 'disabled', title: '是否禁用'},
+            {type: 'switch', field: 'show', title: '是否显示'},
+            {
                 type: 'switch',
                 field: 'type',
                 title: '按钮形式',

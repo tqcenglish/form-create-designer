@@ -37,11 +37,15 @@ export default {
             type: 'switch',
             field: 'showPassword',
             title: '是否显示切换密码图标'
-        }, {type: 'switch', field: 'disabled', title: '禁用'}, {
+        }, {type: 'switch', field: 'disabled', title: '禁用'},
+        {type: 'switch', field: 'show', title: '是否显示'},
+        {
             type: 'input',
             field: 'prefixIcon',
             title: '输入框头部图标'
-        }, {type: 'input', field: 'suffixIcon', title: '输入框尾部图标'}, {
+        },
+        
+        {type: 'input', field: 'suffixIcon', title: '输入框尾部图标'}, {
             type: 'inputNumber',
             field: 'rows',
             info: '只对 type="textarea" 有效',

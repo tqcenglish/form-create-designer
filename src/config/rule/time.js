@@ -26,7 +26,9 @@ export default {
             type: 'switch',
             field: 'disabled',
             title: '禁用'
-        }, {type: 'switch', field: 'editable', title: '文本框可输入', value: true}, {
+        }, 
+        {type: 'switch', field: 'show', title: '是否显示'},
+        {type: 'switch', field: 'editable', title: '文本框可输入', value: true}, {
             type: 'switch',
             field: 'clearable',
             title: '是否显示清除按钮',

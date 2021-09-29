@@ -26,7 +26,9 @@ export default {
             type: 'switch',
             field: 'disabled',
             title: '禁用'
-        }, {
+        },
+        {type: 'switch', field: 'show', title: '是否显示'}, 
+        {
             type: 'select',
             field: 'type',
             title: '显示类型',

@@ -31,7 +31,9 @@ export default {
                 type: 'switch',
                 field: 'disabled',
                 title: '是否禁用'
-            }, {type: 'switch', field: 'clearable', title: '是否可以清空选项'}, {
+            },
+            {type: 'switch', field: 'show', title: '是否显示'},
+            {type: 'switch', field: 'clearable', title: '是否可以清空选项'}, {
                 type: 'switch',
                 field: 'collapseTags',
                 title: '多选时是否将选中值按文字的形式展示'
