@@ -2,6 +2,12 @@ export default function field() {
     return [
         {
             type: 'input',
+            field: 'section',
+            value: '',
+            title: '节点',
+        }, 
+        {
+            type: 'input',
             field: 'field',
             value: '',
             title: '字段 ID',

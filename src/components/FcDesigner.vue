@@ -683,6 +683,7 @@ export default {
 
             if (this.showBaseRule) {
                 this.baseForm.options.formData = {
+                    section: rule.section,
                     field: rule.field,
                     title: rule.title || '',
                     info: rule.info,
